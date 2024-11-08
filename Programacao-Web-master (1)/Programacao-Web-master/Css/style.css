@@ -63,7 +63,6 @@ body {
     backdrop-filter: blur(60px);
     background-color: rgba(26, 26, 206, 0.2); /* Fundo azul translúcido */
     border: 2px solid rgba(255, 255, 255, 0.2);
-    color: #f2f2f2;
     padding: 0.6rem 1.5rem; /* Padding consistente */
     border-radius: 20px;
     cursor: pointer;
