@@ -40,9 +40,9 @@ body{
 
 .container {
     width: 420px;
-    background-color: transparent;
+    background-color:rgba(0, 0, 255, 0.2); /* Fundo azul translúcido */
     border: 2px solid rgba(255,255,255, .2);
-    border-radius: 40px; /*Trocar essa parte com a de victor primeiro ver o que pode ser*/
+    border-radius: 20px; /*Trocar essa parte com a de victor primeiro ver o que pode ser*/
     color: #f2f2f2;
     padding: 30px 40px;
     box-shadow: 0 0 10px rgba(0,0,0, .2);
@@ -61,7 +61,7 @@ body{
     height: 100%;
     background-color: transparent; /* com o color transparent, podemos fazer alguns efeitos por isso a escolha dele*/
     border: 2px solid rgba(255,255,255, .2);
-    border-radius: 40px; /*Trocar essa parte com a de victor primeiro ver o que pode ser*/
+    border-radius: 20px; /*Trocar essa parte com a de victor primeiro ver o que pode ser*/
     outline: none; /*Tirei outline porque acho horrivel aquela linha dentro da caixa*/
     font-size: 16px;
     color: #fff;
@@ -104,20 +104,13 @@ body{
     height: 50px;
     background-color: #fff;
     border: none;
-    border-radius: 40px;  /*Trocar essa parte com a de victor primeiro ver o que pode ser*/
+    border-radius: 20px;  /*Trocar essa parte com a de victor primeiro ver o que pode ser*/
     cursor: pointer;
     font-size: 16px;
     color: #333;
     font-weight: 600;
     box-shadow: 0 0 10px rgba(0,0,0, .1);
     margin-top: 20px;
-}
-
-.login:hover {
-    background-color: transparent;
-    border: 2px solid rgba(255,255,255, .2);
-    color: #fff;
-    transition: 4s;
 }
 
 .register-link {

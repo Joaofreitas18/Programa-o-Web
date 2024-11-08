@@ -18,6 +18,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+fieldset {
+    border: none;
+}
+
 /* Estilo do body com imagem de fundo */
 body {
     width: 100%;
